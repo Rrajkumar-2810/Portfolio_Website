@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hero{
+    height:100vh;
+    position:relative;
+    width: 100%;
+    background:#050505;
+}
+nav{
+    width:85%;
+    margin:auto;
+    padding:20px 0;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform:uppercase;
+}
+nav .logo{
+    cursor:pointer;
+    width:120px;
+}
+nav ul li{
+    display:inline-flex;
+    list-style:none;
+    margin: 10px 15px ;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size:18px;
+    color:#f2f2f2;
+    font-weight:500px;
+    transition:all 0.3 ease;
+}
+nav ul li a:hover{
+    color:#ff0000;
+}
+.btn{
+    text-decoration: none;
+    color:#fff;
+    background: #ff0000;
+    padding:10px 50px;
+    font-weight:500;
+    border-radius:5px;
+    transition:all 0.3 ease;
+}
+.btn:hover{
+    transform: scale(0.9);
+}
+.info{
+    margin-left:8%;
+    margin-top:7%;
+}
+.info h1{
+    font-size: 77px;
+    color:white;
+}
+.info h1 span{
+    color:red;
+}
+.info p{
+    color:grey;
+    line-height: 22px;
+}
+.info .btn{
+    display: inline-block;
+    margin:30px 0;
+}
+.icons{
+    margin-left: 8%;
+    margin-top:100px;
+}
+.icons a{
+    font-size: 30px;
+    text-decoration: none;
+    margin-right: 20px;
+    color:#fff;
+    transition: all 0.3 ease;
+}
+.icons a:hover{
+    color:red;
+}
+.images{
+    height: 45%;
+    width: 45%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.images img{
+    height:100%;
+    position:absolute;
+    right:-20%;
+    bottom:0;
+    transform: translateX(-25%);
+    transition: all 1s;
+}
+.images:hover .bg{
+    bottom:40px;
+}
+.images:hover .girl{
+    right:25%;
+}
+
+
